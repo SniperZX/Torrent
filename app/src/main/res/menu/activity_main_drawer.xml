@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_menu_send"
+            android:title="搜索" />
+
+    </group>
+
+    <item android:title="云播列表">
+        <menu>
+            <item
+                android:id="@+id/play1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="外部云播" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+            <item
+                android:id="@+id/yaya"
+                android:icon="@drawable/ic_menu_send"
+                android:title="内部云播" />
+        </menu>
+    </item>
+
+    <item android:title="视频网站">
+        <menu>
+
+            <item
+                android:id="@+id/mp4ba"
+                android:icon="@drawable/ic_menu_send"
+                android:title="MP4吧" />
+        </menu>
+    </item>
+
+    <item android:title="工具">
+
+        <menu>
+            <item android:id="@+id/magnet"
+                android:title="磁力链工具"
+                android:icon="@drawable/ic_menu_send"
+                >
+            </item>
+            <item android:id="@+id/torrentToMagnet"
+                android:icon="@drawable/ic_menu_send"
+                android:title="种子转磁力链"
+                ></item>
+            <item android:id="@+id/appList"
+                android:icon="@drawable/ic_menu_send"
+                android:title="应用列表"
+                ></item>
+        </menu>
+
+
+
+    </item>
+    <item android:title="视频网站">
+        <menu>
+            <item
+                android:id="@+id/vipvod"
+                android:icon="@drawable/ic_menu_send"
+                android:title="vip视频" />
+        </menu>
+    </item>
+    <item android:title="直播">
+        <menu>
+            <item
+                android:id="@+id/live"
+                android:icon="@drawable/ic_menu_send"
+                android:title="电视直播" />
+        </menu>
+    </item>
+
+
+</menu>

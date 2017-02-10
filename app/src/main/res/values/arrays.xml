@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Websites">
+        <item>http://api.xhub.cn/api.php?op=search_list&amp;key=%1$s&amp;page=%2$d</item>
+        <!--<item>http://www.bthave.com/search/%1$s/%2$d-1.html</item>-->
+        <item>http://www.btfuli.com/list/%1$s-s1d-%2$d.html</item>
+        <!--http://www.btyunsou.com/-->
+        <!--<item>http://www.btyunsou.com/search/%1$s_ctime_%2$d.html</item>-->
+        <item>http://www.kx1024.com/s/%1$s/%2$d</item>
+        <item>http://www.btkiki.com/s/%1$s_%2$d.html</item>
+        <item>http://www.btott.com/search/%1$s_ctime_%2$d.html</item>
+        <item>http://www.btsob.com/search/%1$s_ctime_%2$d.html</item>
+    </string-array>
+
+    <string-array name="parsers">
+        <item>com.rock.software.torrent.Parser.XHubParser</item>
+        <item>com.rock.software.torrent.Parser.BTFuliParser</item>
+        <!--<item>com.rock.software.torrent.Parser.BTSoSoParser</item>-->
+        <item>com.rock.software.torrent.Parser.BT1280Parser</item>
+        <item>com.rock.software.torrent.Parser.BTXiXiParser</item>
+        <item>com.rock.software.torrent.Parser.BTottParser</item>
+        <item>com.rock.software.torrent.Parser.BTsobParser</item>
+    </string-array>
+
+
+    <string-array name="title">
+        <item>xhub</item>
+        <!--<item>bthave</item>-->
+        <item>btfuli</item>
+        <!--<item>btyunsou</item>-->
+        <item>kx1024</item>
+        <item>btxixi</item>
+        <item>btott</item>
+        <item>btsob</item>
+    </string-array>
+
+    <string-array name="video">
+        <item>http://www.luluhei.in/videos?o=mr&amp;page=%1$d</item>
+        <item>http://btio.pw/search/%1$s/currentPage/%2$d</item>
+    </string-array>
+
+    <string-array name="listname">
+        <item>mp4ba</item>
+    </string-array>
+
+    <string-array name="listurl">
+        <item>http://www.mp4ba.com/index.php?page=%1$d</item>
+    </string-array>
+    
+    <string-array name="vodList">
+        <item>https://api.47ks.com/webcloud/?v=</item>
+        <item>http://jx.71ki.com/index.php?url=</item>
+        <item>http://play1.ufanw.com/index6.php?url=</item>
+        <item>http://play1.ufanw.com/index4.php?url=</item>
+    </string-array>
+
+    <string-array name="regular">
+        <item>video id=\"vod\" src=\"(.*?)\"</item>
+        <item>video src=\"(.*?)\"</item>
+        <item>video src=\"(.*?)\"</item>
+        <item>video id=\"vod\" src=\"(.*?)\"</item>
+    </string-array>
+
+</resources>

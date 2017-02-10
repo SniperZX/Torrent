@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rock.software.torrent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.SearchResultActivity" />
+        <activity android:name=".Activity.MagnetToolActivity" />
+        <activity android:name=".Activity.WebViewActivity" />
+        <activity android:name=".Activity.AppListActivity" />
+        <activity android:name=".Activity.VipVoidActivity" />
+        <activity android:name=".Activity.ParserActivity" />
+        <activity
+            android:name=".Activity.VideoViewPlayingActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Activity.DLNAControlActivity" />
+        <activity android:name=".Activity.LiveTVActivity" />
+        <activity android:name=".Activity.LiveDetailActivity" />
+        <activity android:name=".Activity.LiveParserActivity"></activity>
+    </application>
+
+</manifest>
